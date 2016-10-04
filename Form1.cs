@@ -48,8 +48,8 @@ namespace WindowsFormsApplication3
             myPen.Width = 1;
 
             //this code draws the shape of the sun on the corner of the page
-            graphicsObj.DrawPolygon(myPenYellow, new Point[] { new Point(0, 0), new Point(0, 50), new Point (30, 40), new Point(40, 30), new Point (50,0) });
-            graphicsObj.FillPolygon(myBrushYellow , new Point[] { new Point(0, 0), new Point(0, 50), new Point(30, 40), new Point(40, 30), new Point(50, 0) });
+            graphicsObj.DrawEllipse(myPenYellow, -50, -50, 110, 110);
+            graphicsObj.FillEllipse(myBrushYellow, -50, -50, 110, 110);
 
             //This code draws the rays of sun as lines with the yellow pen
             graphicsObj.DrawLine(myPenYellow, new Point(10, 60), new Point(20, 80) );
