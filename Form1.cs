@@ -23,10 +23,9 @@ namespace WindowsFormsApplication3
 
             graphicsObj = this.CreateGraphics();
 
-            Pen myPen = new Pen(System.Drawing.Color.Black, 1);
-            Pen myPenYellow = new Pen(System.Drawing.Color.Yellow, 2);
-            Pen myPenGray = new Pen(System.Drawing.Color.LightGray, 1);
-            Pen myPenDarkGray = new Pen(System.Drawing.Color.DarkGray, 1);
+            Pen myPen = new Pen(System.Drawing.Color.Black);
+            Pen myPenYellow = new Pen(System.Drawing.Color.Yellow);
+            Pen myPenDarkGray = new Pen(System.Drawing.Color.DarkGray);
             Pen myPenBlue = new Pen(System.Drawing.Color.Blue);
             Pen myPenWhite = new Pen(System.Drawing.Color.White);
 
@@ -37,6 +36,8 @@ namespace WindowsFormsApplication3
             Brush myBrushBlack = new SolidBrush(Color.Black);
 
             myPen.Width = 1;
+            myPenYellow.Width = 10;
+            myPenBlue.Width = 2;
 
             //this code draws the shape of the sun on the corner of the page
             graphicsObj.DrawEllipse(myPenYellow, -50, -50, 110, 110);
@@ -114,7 +115,7 @@ namespace WindowsFormsApplication3
             //this code draws the line on the nose of the dolphin to give it depth and dimension
             graphicsObj.DrawLine(myPenDarkGray, new Point (100, 140), new Point (110, 140));
 
-            // Add Text
+            // Add Text, two lines total
             Font myFont = new Font("Georgia", 16.0f);
             myBrush = new SolidBrush(Color.Red);
             graphicsObj.DrawString("David the Dolphin", myFont, myBrush, new Point(50, 390));
