@@ -36,15 +36,6 @@ namespace WindowsFormsApplication3
             Brush myBrushWhite = new SolidBrush(Color.White);
             Brush myBrushBlack = new SolidBrush(Color.Black);
 
-            // Draw grid to make it easier to position lines
-            //for (int i = 0; i < this.Height / 10; i++)
-            //{
-            //    for (int j = 0; j < this.Width / 10; j++)
-            //    {
-            //        graphicsObj.DrawRectangle(myPen, j * 10, i * 10, 1, 1);
-            //    }
-            //}
-
             myPen.Width = 1;
 
             //this code draws the shape of the sun on the corner of the page
