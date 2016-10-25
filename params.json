@@ -1,0 +1,6 @@
+{
+  "name": "Drawing Project (MIS15 - Fall 2015)",
+  "tagline": "",
+  "body": "### About The Project\r\nThis project was for my MIS15 class completed on October, 2016. For this project we had to draw an animal using Visual Basic's Windows Form application. The language that we used was C#, I chose to draw a dolphin.\r\n\r\n### Requirements & Action\r\nThe requirements that were given to us were that the finished product had to contain at least 50 lines of code. The actions that I took was create the program that displayed a drawing of a dolphin when completed. This was all done with the help of a coordinate chart that helped me plot the points on the chart to draw lines, polygons, and ellipses to draw the dolphin.\r\n\r\n### What I Learned\r\nFrom this project I learned how to assemble one large product by putting together smaller bits of code. This also helped me stay consistent with my code all throughout the project. One of the more important things I learned was working alongside a deadline.\r\n\r\n### Authors and Contributors\r\nProfessor: Joseph Taylor\r\nClass: MIS15 - FALL 2015\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
